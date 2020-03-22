@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 700px;
+    padding: 50px;
+
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+.top-items{
+    text-align: justify;
+    margin-left: 70px;
+    margin-top: 120px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+.name-highlight{
+    color: #EC4D7F;
+}
+p{
+    color: dimgray;
+    margin-bottom: 30px;
+}
+.link-button{
+    background-color: #EC4D7F;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+.half-width img{
+    width: 100%;
+}
+.biography-section{
+    background: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
+.biography{
+    text-align: justify;
+    margin-top: 150px;
+}
+.latest-section{
+    height: 500px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.latest-section h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.latest-img{
+    cursor: pointer;
+}
+.latest-img img{
+    width: 100%;
+}
+.first-img{
+    width: 30%;
+    float: left;
+    margin-right:15px;
+    box-shadow: 10px 10px 30px gray ;
+    height: 80%;
+    border-radius: 5px;
+    
+}
+.first-img:hover{
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
+.second-img{
+    width: 30%;
+    float:left;
+    box-shadow: 10px 10px 30px gray ;
+    height: 80%;
+    border-radius: 5px;
+}
+.second-img:hover{
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
+.third-img{
+    width: 30%;
+    float: left;
+    margin-left:15px;
+    box-shadow: 10px 10px 30px gray ;
+    height: 80%;
+    border-radius: 5px;
+}
+.third-img:hover{
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
+
+.footer-section{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    height: 300px;
+    padding: 50px;
+
+}
+h4{
+    margin: -17px;
+}
+footer .link-button{
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+}
+
+footer .link-button p,a{
+    color: #fff;
+    text-transform: none;
+}
+footer .link-button p{
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+footer .link-button a{
+    text-decoration: none;
+}
+footer .link-button a:hover{
+    color: beige;
+}
